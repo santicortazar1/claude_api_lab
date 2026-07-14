@@ -36,13 +36,7 @@ def ask_claude(prompt):
         }
     )
 
-    print("\n--- TOKEN USAGE ---")
-    print(f"Input Tokens:  {response.usage.input_tokens}")
-    print(f"Output Tokens: {response.usage.output_tokens}")
-    print("-------------------\n")
-
     return assistant_text
-
 
 while True:
 
